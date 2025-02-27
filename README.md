@@ -30,7 +30,7 @@ source install/setup.bash
 
 ## Ejecutar el programa
 
-## 1. Ejecutar los nodos por separado
+### 1. Ejecutar los nodos por separado
 
 ```bash
 ros2 run motor_control controller
@@ -39,7 +39,7 @@ ros2 run motor_control set_point
 ```
 
 
-## 2. Ejecutar todos los nodos con un archivo de lanzamiento
+### 2. Ejecutar todos los nodos con un archivo de lanzamiento
 ```bash
 ros2 launch motor_control motor_launch.py
 ```
