@@ -16,9 +16,40 @@ Este proyecto implementa un **controlador PID** en **ROS 2** para regular la vel
 
 ## Instalación
 
-### 1️⃣ Clonar el repositorio
+### 1️. Clonar el repositorio
 ```bash
 cd ~/ros2_ws/src
 git clone git@github.com:raymundo140/ros2_pid_motor_control.git motor_control
+```
+
+
+### 2. Compilar el paquete
+```bash
+cd ~/ros2_ws
+colcon build --packages-select motor_control
+source install/setup.bash
+```
+
+### 3. Ejecutar el programa
+
+## 1. Ejecutar los nodos por separado
+
+```bash
+ros2 run motor_control controller
+ros2 run motor_control dc_motor
+ros2 run motor_control set_point
+```
+
+
+## 2. Ejecutar todos los nodos con un archivo de lanzamiento
+```bash
+ros2 launch motor_control motor_launch.py
+```
+
+### 3. Visualizar datos 
+```bash
+ros2 run plotjuggler plotjuggler
+```
+
 
 
