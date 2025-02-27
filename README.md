@@ -28,7 +28,7 @@ colcon build --packages-select motor_control
 source install/setup.bash
 ```
 
-### 3. Ejecutar el programa
+## Ejecutar el programa
 
 ## 1. Ejecutar los nodos por separado
 
