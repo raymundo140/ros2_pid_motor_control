@@ -1,5 +1,3 @@
-# ros2_pid_motor_control
-
 # ROS 2 PID Motor Control 🚀
 
 Este proyecto implementa un **controlador PID** en **ROS 2** para regular la velocidad de un motor de corriente continua simulado. Se utilizan **namespaces** para gestionar múltiples instancias del sistema y un archivo de configuración en formato **YAML** para modificar parámetros de control sin necesidad de modificar el código.
